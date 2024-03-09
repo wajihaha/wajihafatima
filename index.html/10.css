@@ -1,0 +1,300 @@
+body{
+    background:linear-gradient(to right, #7fe5f3, #eef3f5, #fff4ff, #cabeca )!important;
+    color: rgb(53, 4, 59)!important; 
+  font-style: italic;
+}
+
+p{
+    color: rgb(16, 27, 27) ; 
+     font-size:large;
+}
+div{
+    background-color: rgb(77, 183, 209);
+    border-radius: 8%;
+    box-shadow: 10px 10px 15px rgb(32, 53, 53);
+    width: 25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 35%;
+    margin-top: 40px;
+    
+    
+}
+#n{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: x-large;
+}
+#sha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}#b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}#saj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}#gul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+#f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+#w{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+#seh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+div:hover{
+   
+    background:rgb(156, 196, 243);
+    height: 50px;
+    border-radius: 40%;
+    
+}
+div:focus{
+    background:rgb(156, 196, 243);
+    height: 50px;
+    border-radius: 40%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:250px) and (max-width:350px){
+    
+div{
+   
+    width:35%;
+    height: 40px;
+   display: flex;
+   justify-content: center;
+    
+    
+}
+p{
+    font-size: x-small;
+}
+#n{
+   
+     font-size: large;
+}
+#sha{
+    
+    font-size: large;
+}#b{
+   font-size: large;
+}#saj{
+    
+    font-size: large;
+}#gul{
+    
+    font-size: large;
+}
+#f{
+   
+    font-size: large;
+}
+#w{
+   
+    font-size: large;
+}
+#seh{
+ 
+    font-size: large;
+}
+div:hover{
+color: white;
+    height: 40px;
+    border-radius: 30%;
+    
+}
+div:focus{
+    color: white;
+    height: 40px;
+    border-radius: 30%;
+
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:351px) and (max-width:550px){
+    
+    div{
+       
+        width:30%;
+        height: 40px;
+       display: flex;
+       justify-content: center;
+        
+        
+    }
+    p{
+        font-size:small;
+    }
+    #n{
+       
+         font-size: large;
+    }
+    #sha{
+        
+        font-size: large;
+    }#b{
+       font-size: large;
+    }#saj{
+        
+        font-size: large;
+    }#gul{
+        
+        font-size:large;
+    }
+    #f{
+       
+        font-size: large;
+    }
+    #w{
+       
+        font-size: large;
+    }
+    #seh{
+     
+        font-size: large;
+    }
+    div:hover{
+      
+        height: 40px;
+        border-radius: 30%;
+        
+    }
+    div:focus{
+        
+        height: 40px;
+        border-radius: 30%;
+    
+    }  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:551px) and (max-width:1850px){
+    
+    div{
+       
+        width:27%;
+        height: 44px;
+       display: flex;
+       justify-content: center;
+        
+        
+    }
+    p{
+        font-size:large;
+    }
+    #n{
+       
+         font-size: x-large;
+    }
+    #sha{
+        
+        font-size:x-large ;
+    }#b{
+       font-size: x-large;
+    }#saj{
+        
+        font-size: x-large;
+    }#gul{
+        
+        font-size: x-large;
+    }
+    #f{
+       
+        font-size: x-large;
+    }
+    #w{
+       
+        font-size: x-large;
+    }
+    #seh{
+     
+        font-size:x-large;
+    }
+    div:hover{
+        
+        height: 48px;
+        border-radius: 30%;
+        
+    }
+    div:focus{
+   
+        height: 48px;
+        border-radius: 30%;
+    
+    }  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

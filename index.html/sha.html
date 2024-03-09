@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nus.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> *** Ms. Shahista Zehra ***</h1>
+    <h2># BEST ENGLISH TEACHER</h2>
+    <H2># FRIENDLY</H2>
+    <H2># SWEET AND BEAUTIFUL</H2>
+    <H2># KIND</H2>
+    <H2># NICE WAY OF TEACHING AND SPEAKING</H2>
+    <H2># GOOD HAND WRITING</H2>
+   
+       
+    <br><hr><br>
+
+
+    <H2>"Teachers are the architects of a brighter tomorrow, constructing a foundation of wisdom and understanding in the hearts and minds of their students."</H2>
+<br><h2>I want to sincerely apologize if my words or actions have caused you any hurt. It was never my intention.Thank you for being a very good teacher and a shining light in my life . Your kindness is truly appreciated.
+<br>
+
+
+
+
+</h2>
+    
+
+
+
+
+    
+
+
+ 
+<form id="feedbackForm">
+   <fieldset> <label for="feedback">Your Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="I'm eager to receive your feedback ---kindly express your views about any advise you want to give or any mememory with our class that you remember" required></textarea>
+    <br>
+    <button type="button" onclick="submitFeedback()">Submit Feedback</button></fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+    <script>
+      function submitFeedback() {
+            // Get the feedback from the textarea
+            var feedback = document.getElementById("feedback").value;
+
+            // Create a new Date object to timestamp the feedback
+            var timestamp = new Date();
+
+            // Create a data object with feedback and timestamp
+            var feedbackData = {
+                feedback: feedback,
+                timestamp: timestamp
+            };
+
+            // Convert the data object to a JSON string
+            var jsonData = JSON.stringify(feedbackData);
+
+            // Use a method to store the data locally (e.g., localStorage)
+            localStorage.setItem(timestamp.getTime().toString(), jsonData);
+
+            // Clear the textarea after submission
+            document.getElementById("feedback").value = '';
+
+            // Provide a confirmation message to the user (modify as needed)
+            alert("Thank you for your feedback!");
+
+            // Optional: You can add further logic or actions here
+        }
+ 
+   
+
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

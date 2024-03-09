@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nus.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1> *** Ms. Nusrat ***</h1>
+    <h2># BEST CLASS TEACHER</h2>
+    <H2># FRIENDLY</H2>
+    <H2># PATRIOTIC</H2>
+    <H2># KIND</H2>
+    <H2># SOFT SPOKEN</H2>
+       
+    <br><hr><br> 
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="C:\Users\Haider\Downloads\431606268_1714362852424352_4979144865279627787_n.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="C:\Users\Haider\Downloads\431485898_1339688473411570_5242020841511762361_n.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="C:\Users\Haider\Downloads\428462052_1110068623510761_6000699891714295380_n.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+ <h2>
+<br>
+" Ms. Nusrat ky blocks M jibrael ka ana
+ <br>
+ unki Mazaidar baton pr hmara has has ky pait m dard hojana 
+ <br>
+ har din unhyn apni dukh bhari dastan sunana
+ <br>
+ unka hmy har baar pyar sy samjhana" 
+ <br>
+  <br>
+  hmy bohat yaad ay ga :)                                      
+
+ </h2><br><br><br>
+<h2>" I want to sincerely apologize if my words or actions have caused you any hurt. It was never my intention.Thank you for being a very good teacher and a shining light in my life . Your kindness is truly appreciated."
+
+
+
+
+
+</h2>
+    
+
+
+
+
+<form id="feedbackForm">
+  <fieldset> <label for="feedback">Your Feedback:</label>
+   <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="I'm eager to receive your feedback ---kindly express your views about any advise you want to give or any mememory with our class that you remember" required></textarea>
+   <br>
+   <button type="button" onclick="submitFeedback()">Submit Feedback</button></fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+    <script>
+             function submitFeedback() {
+            // Get the feedback from the textarea
+            var feedback = document.getElementById("feedback").value;
+
+            // Create a new Date object to timestamp the feedback
+            var timestamp = new Date();
+
+            // Create a data object with feedback and timestamp
+            var feedbackData = {
+                feedback: feedback,
+                timestamp: timestamp
+            };
+
+            // Convert the data object to a JSON string
+            var jsonData = JSON.stringify(feedbackData);
+
+            // Use a method to store the data locally (e.g., localStorage)
+            localStorage.setItem(timestamp.getTime().toString(), jsonData);
+
+            // Clear the textarea after submission
+            document.getElementById("feedback").value = '';
+
+            // Provide a confirmation message to the user (modify as needed)
+            alert("Thank you for your feedback!");
+
+            // Optional: You can add further logic or actions here
+        }
+  
+   
+
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
